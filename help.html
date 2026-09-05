@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Help | Taruchaya Seva Sansthan Nasha Mukti Kendra</title>
+  <meta name="description" content="Get help now — 24x7 helpline, emergency support, FAQ and online help request at Taruchaya Seva Sansthan Nasha Mukti Kendra, Jaipur.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-icon">🌿</span>
+      <span class="brand-text">
+        <strong>Taruchaya Seva</strong>
+        <small>Nasha Mukti Kendra, Jaipur</small>
+      </span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="help.html" class="active">Our Help</a>
+    </nav>
+    <div class="nav-right">
+      <a href="tel:+919785909644" class="nav-cta">📞 9785909644</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Our Help</h1>
+    <p class="crumb"><a href="index.html">Home</a> / Our Help</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">You Are Not Alone</span>
+      <h2>How to Get Help — In 4 Simple Steps</h2>
+      <p>Taking the first step is the hardest — but you don't have to do it alone. Here's exactly how it works.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="num">01</div>
+        <h3>Call or Message</h3>
+        <p>Call our 24x7 helpline or send a WhatsApp message. Everything you share stays 100% confidential.</p>
+      </div>
+      <div class="step reveal reveal-delay-1">
+        <div class="num">02</div>
+        <h3>Talk to a Counsellor</h3>
+        <p>Speak with a trained counsellor who understands your situation and guides you without judgement.</p>
+      </div>
+      <div class="step reveal reveal-delay-2">
+        <div class="num">03</div>
+        <h3>Visit Our Centre</h3>
+        <p>Visit us at Bhankrota, Ajmer Road for a free assessment and a personalized treatment plan.</p>
+      </div>
+      <div class="step reveal reveal-delay-3">
+        <div class="num">04</div>
+        <h3>Begin Treatment</h3>
+        <p>Start the recovery journey with medical care, therapy and family support at our facility.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container help-strip">
+    <div class="helpline-card reveal">
+      <span class="eyebrow" style="background: rgba(255,255,255,0.12); color: #ffd9a8;">24x7 Helpline</span>
+      <h2 style="font-size: 1.5rem; font-weight: 700; margin-top: 8px;">Need Help Right Now?</h2>
+      <div class="hotline">
+        <span class="pulse">📞</span>
+        <a href="tel:+919785909644">+91 9785909644</a>
+      </div>
+      <ul>
+        <li><span class="ico">🕐</span> Available 24 hours a day, 7 days a week — including holidays</li>
+        <li><span class="ico">🔒</span> 100% confidential — your call and identity remain private</li>
+        <li><span class="ico">🚑</span> Emergency admission support available round the clock</li>
+      </ul>
+      <a href="tel:+919785909644" class="btn btn-accent">Call Now — It's Free</a>
+    </div>
+    <div class="help-form-wrap reveal">
+      <h3>Request Help Online 📝</h3>
+      <p>Fill this form and our counsellor will call you back within a few hours.</p>
+      <form id="helpForm" novalidate>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="helpName">Your Name *</label>
+            <input type="text" id="helpName" placeholder="Full name">
+            <span class="err">Please enter a valid name (min 3 letters)</span>
+          </div>
+          <div class="form-group">
+            <label for="helpPhone">Mobile Number *</label>
+            <input type="tel" id="helpPhone" placeholder="10-digit mobile number">
+            <span class="err">Enter a valid 10-digit Indian mobile number</span>
+          </div>
+          <div class="form-group">
+            <label for="helpRelation">You Are *</label>
+            <select id="helpRelation">
+              <option value="">Select one</option>
+              <option value="patient">Seeking help for myself</option>
+              <option value="family">Seeking help for a family member</option>
+              <option value="friend">Seeking help for a friend</option>
+              <option value="other">Other</option>
+            </select>
+            <span class="err">Please select an option</span>
+          </div>
+          <div class="form-group">
+            <label for="helpCity">City *</label>
+            <input type="text" id="helpCity" placeholder="Your city">
+            <span class="err">Please enter your city</span>
+          </div>
+          <div class="form-group full">
+            <label for="helpMessage">Tell Us Briefly *</label>
+            <textarea id="helpMessage" placeholder="Share a few details so we can help you better..."></textarea>
+            <span class="err">Please write at least 10 characters</span>
+          </div>
+          <div class="form-group full">
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Help Request →</button>
+          </div>
+        </div>
+      </form>
+      <div class="form-success" id="formSuccess">
+        <div class="ok">✓</div>
+        <h4>Request Received!</h4>
+        <p>Thank you for reaching out. Our counsellor will call you back soon. If it's urgent, please call <strong><a href="tel:+919785909644" style="color: var(--primary);">+91 9785909644</a></strong> right away.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="sos-band reveal">
+      <div class="sos-text">
+        <h3>🚨 Emergency Situation?</h3>
+        <p>If someone is unconscious, having seizures or is in immediate danger — call now. We guide you instantly, 24x7.</p>
+      </div>
+      <a href="tel:+919785909644" class="btn btn-accent">📞 Emergency: 9785909644</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Common Questions</span>
+      <h2>Frequently Asked Questions</h2>
+      <p>Answers to the questions families ask us most often.</p>
+    </div>
+    <div class="faq">
+      <div class="faq-item reveal">
+        <button class="faq-q" type="button">
+          How long does the treatment take?
+          <span class="chev">▾</span>
+        </button>
+        <div class="faq-a">
+          <p>Treatment duration varies from person to person. Typically, programs run from 1 to 6 months depending on the substance, severity and the individual's progress. Our doctors create a personalized plan and review it regularly.</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" type="button">
+          Is my information kept confidential?
+          <span class="chev">▾</span>
+        </button>
+        <div class="faq-a">
+          <p>Absolutely. Patient identity and treatment details are kept 100% confidential. We never share your information with anyone without your written consent. Your privacy is protected at every stage.</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" type="button">
+          Can I visit the centre before admitting someone?
+          <span class="chev">▾</span>
+        </button>
+        <div class="faq-a">
+          <p>Yes! We encourage families to visit our centre at Bhankrota, Ajmer Road, Jaipur before admission. You can see the facility, meet our doctors and counsellors, and clear all your doubts. Visits are welcome anytime.</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" type="button">
+          What if the patient refuses treatment?
+          <span class="chev">▾</span>
+        </button>
+        <div class="faq-a">
+          <p>This is very common. Our counsellors are trained to handle denial and resistance. Call us — we will guide you with proven techniques like motivational interviewing to help the person agree to treatment.</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" type="button">
+          What is the cost of treatment?
+          <span class="chev">▾</span>
+        </button>
+        <div class="faq-a">
+          <p>Cost depends on the program, room type and duration. We keep our services affordable and offer transparent pricing with no hidden charges. Call +91 9785909644 for detailed fee information.</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" type="button">
+          Do you provide support after discharge?
+          <span class="chev">▾</span>
+        </button>
+        <div class="faq-a">
+          <p>Yes. Our aftercare program includes regular follow-up calls, support group meetings and relapse prevention guidance for the patient and family — completely free for our alumni.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section cta-band">
+  <div class="container">
+    <h2>Today Can Be Day One of a New Life</h2>
+    <p>Visit us at Bhankrota, Ajmer Road, Jaipur — or simply make the call. We are ready when you are.</p>
+    <div class="cta-actions">
+      <a href="tel:+919785909644" class="btn btn-accent">📞 Call 9785909644</a>
+      <a href="https://wa.me/919785909644" class="btn btn-outline">WhatsApp Us</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="about">
+        <a href="index.html" class="brand">
+          <span class="brand-icon">🌿</span>
+          <span class="brand-text">
+            <strong style="color: #fff;">Taruchaya Seva</strong>
+            <small>Nasha Mukti Kendra, Jaipur</small>
+          </span>
+        </a>
+        <p>A trusted de-addiction & rehabilitation centre in Jaipur, dedicated to helping people break free from addiction and rebuild healthy, happy lives with dignity.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="Instagram">📸</a>
+          <a href="#" aria-label="YouTube">▶️</a>
+          <a href="https://wa.me/919785909644" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">→ Home</a></li>
+          <li><a href="about.html">→ About Us</a></li>
+          <li><a href="services.html">→ Services</a></li>
+          <li><a href="help.html">→ Our Help</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Our Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html">→ De-addiction Treatment</a></li>
+          <li><a href="services.html">→ Counselling & Therapy</a></li>
+          <li><a href="services.html">→ Yoga & Meditation</a></li>
+          <li><a href="services.html">→ Family Support</a></li>
+          <li><a href="services.html">→ Aftercare Program</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <ul class="footer-contact">
+          <li><span class="ico">📍</span> Bhankrota Post Office, Ajmer Road, Near SBI Bank, Jaipur, Rajasthan 302026</li>
+          <li><span class="ico">📞</span> <a href="tel:+919785909644">+91 9785909644</a></li>
+          <li><span class="ico">✉️</span> <a href="mailto:taruchaya.seva@gmail.com">taruchaya.seva@gmail.com</a></li>
+          <li><span class="ico">🕐</span> Open 24x7 — All Days</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © <span id="year"></span> <a href="index.html">Taruchaya Seva Sansthan</a> — Nasha Mukti Kendra, Jaipur. All Rights Reserved. | Recovery is Possible 🌱
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
